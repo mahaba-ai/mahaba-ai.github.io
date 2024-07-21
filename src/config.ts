@@ -3,6 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "http://www.mahaba.co.uk", // replace this with your deployed domain
   author: "Lyndon Scott Humphris",
+  profile: "www.google.com",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "Mahaba AI",
   ogImage: "astropaper-og.jpg",
