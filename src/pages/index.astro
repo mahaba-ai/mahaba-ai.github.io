@@ -43,7 +43,17 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
       <p>
         We are Mahaba AI, a team of researchers and engineers working on AI and
-        machine learning.
+        machine learning. Our particular focus is on how AI can be applied and
+        implemented into business.
+      </p>
+      <p>
+        If you are an indivual or business with your own ideas or just in need
+        of advice, please reach out and we'd be happy to discuss how we think AI
+        can help you.
+      </p>
+      <p>
+        Below is some of our recent work, please have a browse and reach out if
+        you have any questions.
       </p>
       {
         // only display if at least one social link is enabled
@@ -55,17 +65,74 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         )
       }
     </section>
-    <div class="flex justify-center">
-      <iframe
-        src="https://jonah-ramponi-Mahaba.hf.space/"
-        frameborder="0"
-        width="600"
-        height="350"
-      >
-      </iframe>
-    </div>
+    <section id="ai-bot">
+      <div class="flex flex-col justify-center">
+        <h2>Mahaba Bot</h2>
+        <p class="pt-6">
+          Meet Mahaba Bot, it's a basic example of a what we can do.
+        </p>
+        <div class="flex justify-center pb-6 pt-12">
+          <iframe
+            src="https://jonah-ramponi-Mahaba.hf.space/"
+            width="600"
+            height="400"
+            class="rounded-3xl"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
     <Hr />
-
+    <section id="team">
+      <h2>Meet the Team</h2>
+      <div class="flex justify-between pb-6 pt-6">
+        <LinkButton href="/about/">
+          <div class="flex flex-col items-center">
+            <img
+              src="/assets/josh.jpeg"
+              alt="Josh Millar"
+              class="mb-2 h-40 w-40 rounded-full"
+            />
+            <h3>Josh Millar</h3>
+            <p>Lead Engineer</p>
+          </div>
+        </LinkButton>
+        <LinkButton href="/about/">
+          <div class="flex flex-col items-center">
+            <img
+              src="/assets/josh.jpeg"
+              alt="Josh Millar"
+              class="mb-2 h-40 w-40 rounded-full"
+            />
+            <h3>Josh Millar</h3>
+            <p>Lead Engineer</p>
+          </div>
+        </LinkButton>
+        <LinkButton href="/about/">
+          <div class="flex flex-col items-center">
+            <img
+              src="/assets/josh.jpeg"
+              alt="Josh Millar"
+              class="mb-2 h-40 w-40 rounded-full"
+            />
+            <h3>Josh Millar</h3>
+            <p>Lead Engineer</p>
+          </div>
+        </LinkButton>
+        <LinkButton href="/about/">
+          <div class="flex flex-col items-center">
+            <img
+              src="/assets/josh.jpeg"
+              alt="Josh Millar"
+              class="mb-2 h-40 w-40 rounded-full"
+            />
+            <h3>Josh Millar</h3>
+            <p>Lead Engineer</p>
+          </div>
+        </LinkButton>
+      </div>
+    </section>
+    <Hr />
     {
       featuredPosts.length > 0 && (
         <>
@@ -147,11 +214,12 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
+  #ai-bot,
+  #team,
   #recent-posts {
     @apply pb-6 pt-12;
   }
-  #featured h2,
-  #recent-posts h2 {
+  h2 {
     @apply text-2xl font-semibold tracking-wide;
   }
   .all-posts-btn-wrapper {

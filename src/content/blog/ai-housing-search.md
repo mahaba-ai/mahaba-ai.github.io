@@ -1,19 +1,18 @@
 ---
 author: Sat Naing
-pubDatetime: 2022-09-23T15:22:00Z
-modDatetime: 2023-12-21T09:12:47.400Z
-title: Adding new posts in AstroPaper theme
-slug: adding-new-posts-in-astropaper-theme
+pubDatetime: 2024-07-28T08:35:00Z
+modDatetime: 2024-07-28T08:35:00Z
+title: AI Housing Search
+slug: ai-housing-search
 featured: true
 draft: false
 tags:
-  - docs
-description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+  - AI
+  - Search
+description: A case study on building a housing search engine using AI and machine learning.
 ---
 
-Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
+This is a markdown doc that someone needs to fill out. Read below and replace it with our actual article.
 
 ## Table of contents
 
